@@ -1,0 +1,296 @@
+2022/07/15 21:47:11 [notice] 116#116: signal process started
+2022/07/15 21:47:20 [] 117#117: *238 [lua] api.lua:82: endpoint(): { [1] = { [1] = 1,[2] = Michael,[3] = password,} ,} , client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:47:20 [] 117#117: *238 [lua] api.lua:83: endpoint(): password, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:47:45 [notice] 118#118: signal process started
+2022/07/15 21:47:54 [] 119#119: *240 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:47:54 [] 119#119: *240 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:48:07 [] 119#119: *240 [lua] api.lua:82: endpoint(): { [1] = { [1] = 1,[2] = Michael,[3] = password,} ,} , client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:48:07 [] 119#119: *240 [lua] api.lua:83: endpoint(): Michael, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:49:39 [notice] 120#120: signal process started
+2022/07/15 21:49:42 [] 121#121: *245 [lua] api.lua:82: endpoint(): [[1,"Michael","password"]], client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:49:57 [notice] 122#122: signal process started
+2022/07/15 21:50:00 [] 123#123: *247 [lua] api.lua:82: endpoint(): [[2,"Idell","password"]], client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:50:49 [notice] 124#124: signal process started
+2022/07/15 21:50:53 [] 125#125: *249 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:50:53 [] 125#125: *249 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:51:15 [] 125#125: *249 [lua] api.lua:82: endpoint(): {}, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:51:25 [] 125#125: *249 [lua] api.lua:82: endpoint(): [[1,"Michael","password"]], client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:51:45 [notice] 126#126: signal process started
+2022/07/15 21:51:47 [] 127#127: *253 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:51:47 [] 127#127: *253 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:51:53 [] 127#127: *253 [lua] api.lua:82: endpoint(): null, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:52:15 [notice] 128#128: signal process started
+2022/07/15 21:52:16 [] 129#129: *256 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:52:16 [] 129#129: *256 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:52:21 [] 129#129: *256 [lua] api.lua:82: endpoint(): { [1] = { [1] = 1,[2] = Michael,[3] = password,} ,} , client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:52:37 [notice] 130#130: signal process started
+2022/07/15 21:52:38 [] 131#131: *259 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:52:38 [] 131#131: *259 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:52:38 [] 131#131: *259 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:52:38 [] 131#131: *259 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:52:39 [] 131#131: *259 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:52:39 [] 131#131: *259 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:52:41 [] 131#131: *259 [lua] api.lua:82: endpoint(): 1, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:52:56 [] 131#131: *259 [lua] api.lua:82: endpoint(): 1, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:53:05 [notice] 132#132: signal process started
+2022/07/15 21:53:06 [] 133#133: *265 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:53:06 [] 133#133: *265 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:53:15 [] 133#133: *265 [lua] api.lua:82: endpoint(): nil, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:53:20 [] 133#133: *265 [lua] api.lua:82: endpoint(): { [1] = 1,[2] = Michael,[3] = password,} , client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:53:42 [notice] 134#134: signal process started
+2022/07/15 21:53:43 [] 135#135: *269 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:53:43 [] 135#135: *269 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:53:43 [] 135#135: *269 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:53:43 [] 135#135: *269 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:53:51 [] 135#135: *269 [lua] api.lua:82: endpoint(): Michael, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:55:45 [notice] 136#136: signal process started
+2022/07/15 21:55:49 [] 137#137: *273 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:55:49 [] 137#137: *273 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:56:12 [] 137#137: *273 [lua] api.lua:82: endpoint(): Michael, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:56:48 [notice] 138#138: signal process started
+2022/07/15 21:56:50 [] 139#139: *276 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:56:50 [] 139#139: *276 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:56:55 [] 139#139: *276 [lua] api.lua:82: endpoint(): Michael, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:57:03 [] 139#139: *276 [lua] api.lua:82: endpoint(): Michael, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:58:00 [notice] 140#140: signal process started
+2022/07/15 21:58:02 [] 141#141: *280 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:58:02 [] 141#141: *280 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:58:09 [] 141#141: *280 [lua] api.lua:82: endpoint(): Michael, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:58:48 [notice] 142#142: signal process started
+2022/07/15 21:58:49 [] 143#143: *283 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:58:49 [] 143#143: *283 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:58:53 [] 143#143: *283 [lua] api.lua:82: endpoint(): Michael, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 21:59:09 [error] 143#143: *286 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 21:59:30 [error] 143#143: *286 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:00:13 [notice] 144#144: signal process started
+2022/07/15 22:00:17 [error] 145#145: *287 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:00:17 [error] 145#145: *287 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:00:17 [error] 145#145: *287 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:00:18 [error] 145#145: *287 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:00:28 [notice] 146#146: signal process started
+2022/07/15 22:00:29 [error] 147#147: *288 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:00:29 [error] 147#147: *288 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:00:29 [error] 147#147: *288 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:00:30 [error] 147#147: *288 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:00:30 [error] 147#147: *288 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:00:30 [error] 147#147: *288 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:00:36 [error] 147#147: *289 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:00:36 [error] 147#147: *289 open() "/templates/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:01:47 [notice] 148#148: signal process started
+2022/07/15 22:01:56 [] 149#149: *290 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:01:56 [] 149#149: *290 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:01:56 [] 149#149: *290 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:01:56 [] 149#149: *290 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:01:56 [] 149#149: *290 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:01:56 [] 149#149: *290 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:02:24 [notice] 150#150: signal process started
+2022/07/15 22:02:25 [error] 151#151: *294 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:02:37 [notice] 152#152: signal process started
+2022/07/15 22:02:37 [error] 153#153: *295 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:02:38 [error] 153#153: *295 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:02:38 [error] 153#153: *295 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:02:59 [notice] 154#154: signal process started
+2022/07/15 22:03:13 [notice] 156#156: signal process started
+2022/07/15 22:03:14 [] 157#157: *296 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:14 [] 157#157: *296 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:15 [] 157#157: *296 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:15 [] 157#157: *296 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:23 [notice] 158#158: signal process started
+2022/07/15 22:03:24 [] 159#159: *299 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:24 [] 159#159: *299 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:24 [] 159#159: *299 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:24 [] 159#159: *299 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:24 [] 159#159: *299 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:24 [] 159#159: *299 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:24 [] 159#159: *299 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:24 [] 159#159: *299 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:25 [] 159#159: *299 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:25 [] 159#159: *299 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:25 [] 159#159: *299 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:25 [] 159#159: *299 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:28 [notice] 160#160: signal process started
+2022/07/15 22:03:29 [] 161#161: *306 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:29 [] 161#161: *306 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:29 [] 161#161: *306 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:29 [] 161#161: *306 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:30 [] 161#161: *306 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:30 [] 161#161: *306 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:30 [] 161#161: *306 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:30 [] 161#161: *306 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:30 [] 161#161: *306 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:30 [] 161#161: *306 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:30 [] 161#161: *306 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:30 [] 161#161: *306 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:34 [notice] 162#162: signal process started
+2022/07/15 22:03:34 [] 163#163: *313 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:34 [] 163#163: *313 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:34 [] 163#163: *313 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:34 [] 163#163: *313 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:35 [] 163#163: *313 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:35 [] 163#163: *313 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:35 [] 163#163: *313 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:35 [] 163#163: *313 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:35 [] 163#163: *313 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:35 [] 163#163: *313 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:35 [] 163#163: *313 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:35 [] 163#163: *313 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:39 [notice] 164#164: signal process started
+2022/07/15 22:03:40 [] 165#165: *320 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:40 [] 165#165: *320 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:40 [] 165#165: *320 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:40 [] 165#165: *320 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:43 [] 165#165: *320 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:43 [] 165#165: *320 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:52 [] 165#165: *324 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:52 [] 165#165: *324 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:03:52 [] 165#165: *324 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:03:52 [] 165#165: *324 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:06:46 [notice] 166#166: signal process started
+2022/07/15 22:06:48 [error] 167#167: *327 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:19 [notice] 168#168: signal process started
+2022/07/15 22:07:22 [] 169#169: *328 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 22:07:22 [] 169#169: *328 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /view.html? HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/view.html?"
+2022/07/15 22:07:25 [error] 169#169: *330 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:25 [error] 169#169: *330 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:25 [error] 169#169: *330 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:34 [notice] 170#170: signal process started
+2022/07/15 22:07:35 [error] 171#171: *331 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:35 [error] 171#171: *331 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:40 [notice] 172#172: signal process started
+2022/07/15 22:07:41 [error] 173#173: *332 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:41 [error] 173#173: *332 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:42 [error] 173#173: *332 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:42 [error] 173#173: *332 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:42 [error] 173#173: *332 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:48 [notice] 174#174: signal process started
+2022/07/15 22:07:49 [error] 175#175: *333 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:49 [error] 175#175: *333 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:54 [notice] 176#176: signal process started
+2022/07/15 22:07:55 [error] 177#177: *334 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:56 [error] 177#177: *334 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:56 [error] 177#177: *334 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:56 [error] 177#177: *334 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:56 [error] 177#177: *334 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:56 [error] 177#177: *334 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:07:57 [error] 177#177: *334 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:08:11 [error] 177#177: *335 "/etc/nginx/conf.d/html/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:08:34 [notice] 178#178: signal process started
+2022/07/15 22:08:35 [] 179#179: *336 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:08:35 [] 179#179: *336 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:08:35 [] 179#179: *336 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:08:35 [] 179#179: *336 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:09:22 [notice] 180#180: signal process started
+2022/07/15 22:09:25 [] 181#181: *339 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:09:25 [] 181#181: *339 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:09:38 [notice] 182#182: signal process started
+2022/07/15 22:09:39 [] 183#183: *341 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:09:39 [] 183#183: *341 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:09:39 [] 183#183: *341 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:09:39 [] 183#183: *341 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:09:45 [] 183#183: *341 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:09:45 [] 183#183: *341 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET /style.css HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:10:50 [notice] 184#184: signal process started
+2022/07/15 22:10:54 [error] 185#185: *345 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:10:54 [error] 185#185: *345 directory index of "/templates/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:12:03 [notice] 186#186: signal process started
+2022/07/15 22:12:04 [] 187#187: *346 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:12:04 [] 187#187: *346 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:12:10 [notice] 188#188: signal process started
+2022/07/15 22:12:11 [] 189#189: *348 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:12:11 [] 189#189: *348 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:12:22 [] 189#189: *348 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:12:22 [] 189#189: *348 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:13:37 [notice] 190#190: signal process started
+2022/07/15 22:13:46 [] 191#191: *353 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:13:46 [] 191#191: *353 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:13:56 [notice] 192#192: signal process started
+2022/07/15 22:13:57 [] 193#193: *355 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:13:57 [] 193#193: *355 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:13:58 [] 193#193: *355 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:13:58 [] 193#193: *355 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:13:59 [] 193#193: *355 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:13:59 [] 193#193: *355 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:14:04 [] 193#193: *359 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:14:04 [] 193#193: *359 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:14:13 [] 193#193: *361 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:14:13 [] 193#193: *361 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:14:49 [error] 193#193: *361 lua entry thread aborted: runtime error: /etc/nginx/conf.d/lua/api.lua:82: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/etc/nginx/conf.d/lua/api.lua: in function 'endpoint'
+	/etc/nginx/conf.d/lua/api.lua:70: in main chunk, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:15:29 [notice] 194#194: signal process started
+2022/07/15 22:15:32 [error] 195#195: *364 lua entry thread aborted: runtime error: /etc/nginx/conf.d/lua/api.lua:82: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/etc/nginx/conf.d/lua/api.lua: in function 'endpoint'
+	/etc/nginx/conf.d/lua/api.lua:70: in main chunk, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:16:07 [] 195#195: *366 [lua] api.lua:82: endpoint(): Michael, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:17:05 [notice] 196#196: signal process started
+2022/07/15 22:17:07 [] 197#197: *368 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:17:07 [] 197#197: *368 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:17:12 [error] 197#197: *368 lua entry thread aborted: runtime error: /etc/nginx/conf.d/lua/api.lua:82: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/etc/nginx/conf.d/lua/api.lua: in function 'endpoint'
+	/etc/nginx/conf.d/lua/api.lua:70: in main chunk, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:17:18 [] 197#197: *371 [lua] api.lua:82: endpoint(): Michael, client: 172.18.0.1, server: , request: "POST /api/login HTTP/1.1", host: "localhost:7000", referrer: "http://localhost:7000/"
+2022/07/15 22:18:32 [notice] 198#198: signal process started
+2022/07/15 22:18:33 [] 199#199: *373 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:18:33 [] 199#199: *373 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:18:33 [] 199#199: *373 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:18:33 [] 199#199: *373 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:19:33 [notice] 200#200: signal process started
+2022/07/15 22:19:35 [] 201#201: *378 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:19:35 [] 201#201: *378 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:20:00 [notice] 202#202: signal process started
+2022/07/15 22:20:02 [] 203#203: *382 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:20:02 [] 203#203: *382 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:20:02 [] 203#203: *382 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:20:02 [] 203#203: *382 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:20:23 [notice] 204#204: signal process started
+2022/07/15 22:20:26 [] 205#205: *387 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:20:26 [] 205#205: *387 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:21:08 [] 205#205: *387 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:21:08 [] 205#205: *387 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:21:18 [notice] 206#206: signal process started
+2022/07/15 22:21:19 [] 207#207: *393 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:21:19 [] 207#207: *393 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:21:20 [] 207#207: *393 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:21:20 [] 207#207: *393 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:21:33 [] 207#207: *393 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:21:33 [] 207#207: *393 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:21:33 [] 207#207: *393 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:21:33 [] 207#207: *393 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:22:13 [] 207#207: *393 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:22:13 [] 207#207: *393 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:22:13 [] 207#207: *393 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:22:13 [] 207#207: *393 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:22:57 [notice] 208#208: signal process started
+2022/07/15 22:22:58 [] 209#209: *403 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:22:58 [] 209#209: *403 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:22:58 [] 209#209: *403 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:22:58 [] 209#209: *403 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:00 [notice] 210#210: signal process started
+2022/07/15 22:24:03 [] 211#211: *408 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:03 [] 211#211: *408 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:03 [] 211#211: *408 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:03 [] 211#211: *408 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:23 [] 211#211: *408 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:23 [] 211#211: *408 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:32 [] 211#211: *408 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:32 [] 211#211: *408 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:41 [] 211#211: *408 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:41 [] 211#211: *408 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:42 [] 211#211: *408 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:42 [] 211#211: *408 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:47 [] 211#211: *408 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:47 [] 211#211: *408 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:48 [] 211#211: *408 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:48 [] 211#211: *408 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:48 [] 211#211: *408 [lua] handler.lua:16: { [1] = { [1] = 2,[2] = Idell,[3] = password,} ,} , client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:24:48 [] 211#211: *408 [lua] handler.lua:17: password, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:7000"
+2022/07/15 22:26:03 [notice] 212#212: signal process started
+2022/07/15 22:26:30 [notice] 214#214: signal process started
+2022/07/15 22:27:05 [notice] 216#216: signal process started
+2022/07/15 22:27:11 [notice] 218#218: signal process started
